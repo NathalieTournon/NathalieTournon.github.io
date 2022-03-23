@@ -1,1 +1,77 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    <title>CV</title>
+</head>
+<body>
+    <header>
+      <nav id="navbar" class="nav">
+        <ul>
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I am Nat</h1>
+      <p>a web developer<br>
+      In Progress ...</p>
+        <!-- ui-progress -->
+      <div id="container">
+        <!-- #progress_bar -->
+        <div id="progress_bar" class="ui-progress-bar ui-container">
+            <div class="ui-progress" style="width: 79%;">
+            <span class="ui-label" style="display:none;">Processing <b class="value">79%</b></span>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="projects-section">
+      <h2>These are some of my projects</h2>
+      <div class="project-tile">
+        <a href="https://codepen.io/Naaattt/pen/BaLGxmE" target="_blank">
+        <img src="https://www.spoonradio.com/sites/default/files/acturock/focus2/David%20Bowie-MA.jpg" class="project-image" alt="Tribute"/>
+          <p class="project-titre">
+          <span class="code">&lt;</span>
+          Tribute Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+        </a>
+        <a href="https://codepen.io/Naaattt/pen/BaLGxmE" target="_blank">
+        <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="Tribute"/>
+          <p class="project-titre">
+          <span class="code">&lt;</span>
+          Tribute Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+        </a>
+      </div>
+    <a href="https://codepen.io/Naaattt" target="_blank" class="btnshow">Show all</a>
+    </section>
+    
+    <section id="contact">
+      <p>Let's work together...</p>
+      <p>How do you take your coffee ?</p>
+      <a
+        id="profile-link"
+        href="https://github.com/Natalhie"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-github"></i> GitHub</a
+      >
+     </section>
+    <footer></footer>
+    </body>
+</html>
